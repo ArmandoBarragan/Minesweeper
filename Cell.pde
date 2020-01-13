@@ -18,10 +18,6 @@ class Cell{
     fill(255);
     stroke(0);
     rect(x,y,width,width);
-    if (chance==0){
-      fill(66);
-      text("ei", centerX, centerY);
-    }
   }
   
   void reveal(){
